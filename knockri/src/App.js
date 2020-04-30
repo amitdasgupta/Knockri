@@ -30,6 +30,8 @@ class App extends React.Component {
     }
   }
 
+  //here this function is normalizing data
+
   transformData(data, type) {
     const transformedData = {};
     for (let item of data) {

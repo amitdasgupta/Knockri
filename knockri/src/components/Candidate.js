@@ -17,7 +17,9 @@ export default function Candidate(props) {
   };
   return (
     <div>
-      <h2 onClick={toggleSelection}>{candidate}</h2>
+      <h2 onClick={toggleSelection} style={{ cursor: "pointer" }}>
+        {candidate}
+      </h2>
       {visibile &&
         (videos.length == 0 ? (
           <div
